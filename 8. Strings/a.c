@@ -90,7 +90,7 @@ int main(){
     char str1[] = "hello";
     char str2[] = "world";
     char empty[] = "";
-    strcpy(empty, str1);
+    strcpy(empty, str2);
     puts(empty);
     return 0;
 }
