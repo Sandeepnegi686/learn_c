@@ -161,21 +161,40 @@ void printString(char string[]);
 //     puts(newString);
 // }
 
-int countVowels(char string[]);
+// int countVowels(char string[]);
+
+// int main(){
+//     char fullName[] = "my name is sandeep negi";
+//     int count = countVowels(fullName);
+//     printf("%d",count);
+//     return 0;
+// }
+
+// int countVowels(char string[]){
+//     int count = 0;
+//     for(int i = 0; string[i] != 0; i++){
+//         if(string[i] == 'a' || string[i] == 'e' || string[i] == 'i' || string[i] == 'o' || string[i] == 'u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+void checkChar(char ch, char string[]);
 
 int main(){
-    char fullName[] = "my name is sandeep negi";
-    int count = countVowels(fullName);
-    printf("%d",count);
+    char fullName[] = "My name is rahul";
+    checkChar('m',fullName);
     return 0;
 }
 
-int countVowels(char string[]){
-    int count = 0;
+void checkChar(char ch, char string[]){
+    int present = 0;
     for(int i = 0; string[i] != 0; i++){
-        if(string[i] == 'a' || string[i] == 'e' || string[i] == 'i' || string[i] == 'o' || string[i] == 'u'){
-            count++;
+        if(string[i] == ch){
+            present = 1;
+            break;
         }
     }
-    return count;
+    printf("%d",present);
 }
