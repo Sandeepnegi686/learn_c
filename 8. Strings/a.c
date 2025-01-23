@@ -180,21 +180,70 @@ void printString(char string[]);
 //     return count;
 // }
 
-void checkChar(char ch, char string[]);
+// void checkChar(char ch, char string[]);
 
-int main(){
-    char fullName[] = "My name is rahul";
-    checkChar('m',fullName);
-    return 0;
-}
+// int main(){
+//     char fullName[] = "My name is rahul";
+//     checkChar('m',fullName);
+//     return 0;
+// }
 
-void checkChar(char ch, char string[]){
-    int present = 0;
-    for(int i = 0; string[i] != 0; i++){
-        if(string[i] == ch){
-            present = 1;
-            break;
-        }
-    }
-    printf("%d",present);
-}
+// void checkChar(char ch, char string[]){
+//     int present = 0;
+//     for(int i = 0; string[i] != 0; i++){
+//         if(string[i] == ch){
+//             present = 1;
+//             break;
+//         }
+//     }
+//     printf("%d",present);
+// }
+
+// int main(){
+//     char string[] = "rahulu";
+//     char charsFreq[256] = {0};
+//     char maxChar = '\0';
+//     int highCount = -1;
+
+//     for(int i = 0; string[i] != 0; i++){
+//         charsFreq[string[i]]++;
+//         if ( charsFreq[string[i]] > highCount ){
+//             maxChar = string[i];
+//             highCount = charsFreq[string[i]];
+//         }
+//     }
+//     printf("%c",maxChar);
+
+//     return 0;
+// }
+
+// int main(){
+//     char string[] = "my name is rahul negi";
+
+//     char newString[100];
+
+//     int j = 0;
+//     for(int i = 0; string[i] != 0; i++){
+//         if(string[i] != 32){
+//             newString[j] = string[i];
+//             j++;
+//         }
+//     }
+
+//     printf("%s",newString);
+
+//     return 0;
+// }
+
+// int main(){
+//     char string[] = "My name is Rahul Negi";
+//     for(int i = 0; string[i] != 0; i++){
+//         if(string[i]>= 65 && string[i] <= 90){
+//             string[i] += 32;
+//         }else if(string[i] >= 97 && string[i] <= 122){
+//             string[i] -= 32;
+//         }
+//     }
+//     puts(string);
+//     return 0;
+// }
