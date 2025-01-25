@@ -1,0 +1,13 @@
+//Volatile == RAM
+//Non Volatile == Hard Disk
+
+
+//Create a file
+//Open a file
+//Close a file
+//Read a file
+//Write a file
+
+File are two types : 
+Text Files : .c .txt
+Binary Files : .exe .mp3 .jpg
