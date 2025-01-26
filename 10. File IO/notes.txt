@@ -9,5 +9,5 @@
 //Write a file
 
 File are two types : 
-Text Files : .c .txt
+Text Files : .c .txt .java
 Binary Files : .exe .mp3 .jpg
