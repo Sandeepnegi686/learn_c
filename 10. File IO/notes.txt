@@ -8,6 +8,25 @@
 //Read a file
 //Write a file
 
+// Modes
+//r -> read
+//rb -> read in binary
+//w -> write
+//wb -> write in binary
+//a -> append
+
 File are two types : 
-Text Files : .c .txt .java
+Text Files : .c .txt .java 
 Binary Files : .exe .mp3 .jpg
+
+
+fscanf(fptr, %c,&ch)   to scan the data
+fprintf()  to print the data
+
+
+fgetc(fptr)   file get character -> to scan the file by character
+fputc(fptr)   file put character -> to write the file by character
+
+
+fgetc()    it will return EOF at the end of the line.
+EOF()  End Of File
