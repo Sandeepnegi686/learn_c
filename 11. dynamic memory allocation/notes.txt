@@ -1,0 +1,7 @@
+Dynamic Allocation
+
+//Memory Allocation - (int *) malloc(5 * sizeof(int))  --> allocate 20 bytes of memory in run time.
+
+//calloc()
+Continuous Allocation - (int *) calloc(5 * sizeof(int))  --> allocate 20 bytes of memory and put all values to null, e.g., 0 , 0.0, '\0'
+
